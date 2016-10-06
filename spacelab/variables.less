@@ -8,7 +8,7 @@
 //## Gray and brand colors for use across Bootstrap.
 
 @gray-base:              #000;
-@gray-darker:            #2d2d2d; // #222
+@gray-darker:            lighten(@gray-base, 10%); // #2d2d2d; // #222
 @gray-dark:              lighten(@gray-base, 20%);   // #333
 @gray:                   #666; // #555
 @gray-light:             lighten(@gray-base, 60%);   // #999
@@ -364,8 +364,8 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             #777;
-@navbar-default-bg:                #eee;
+@navbar-default-color:             lighten(@brand-info, 20%); // #777;
+@navbar-default-bg:                lighten(@brand-info, 40%); // #eee;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
@@ -866,4 +866,4 @@
 //** Point at which .dl-horizontal becomes horizontal
 @dl-horizontal-breakpoint:    @grid-float-breakpoint;
 //** Horizontal line color.
-@hr-border:                   @gray-lighter;
+@hr-border:                   lighten(@brand-info, 50%); // @gray-lighter;
