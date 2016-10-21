@@ -4497,8 +4497,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #ffb095;
-  border-color: #ff9774;
+  background-color: #ff7a4e;
+  border-color: #ff612c;
 }
 .navbar-default .navbar-brand {
   color: #777777;
@@ -4509,7 +4509,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #ff632f;
+  color: #ff6b39;
 }
 .navbar-default .navbar-nav > li > a {
   color: #777777;
@@ -4532,18 +4532,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ff9774;
+  border-color: #ff612c;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ff9774;
+  background-color: #ff612c;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #cccccc;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ff9774;
+  border-color: #ff612c;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -6756,15 +6756,15 @@ button.close {
   }
 }
 .navbar {
-  background-image: -webkit-linear-gradient(#ffe9e2, #ffb095 50%, #ffa081);
-  background-image: -o-linear-gradient(#ffe9e2, #ffb095 50%, #ffa081);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe9e2), color-stop(50%, #ffb095), to(#ffa081));
-  background-image: linear-gradient(#ffe9e2, #ffb095 50%, #ffa081);
+  background-image: -webkit-linear-gradient(#ffb39a, #ff7a4e 50%, #ff6b39);
+  background-image: -o-linear-gradient(#ffb39a, #ff7a4e 50%, #ff6b39);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb39a), color-stop(50%, #ff7a4e), to(#ff6b39));
+  background-image: linear-gradient(#ffb39a, #ff7a4e 50%, #ff6b39);
   background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffe9e2', endColorstr='#ffffa081', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffb39a', endColorstr='#ffff6b39', GradientType=0);
   -webkit-filter: none;
           filter: none;
-  border: 1px solid #ff8962;
+  border: 1px solid #ff541b;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 .navbar-inverse {
