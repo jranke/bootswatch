@@ -4497,8 +4497,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #ff6b39;
-  border-color: #ff5218;
+  background-color: #ff7243;
+  border-color: #ff5922;
 }
 .navbar-default .navbar-brand {
   color: #333333;
@@ -4532,18 +4532,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ff5218;
+  border-color: #ff5922;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ff5218;
+  background-color: #ff5922;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #cccccc;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ff5218;
+  border-color: #ff5922;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -6756,15 +6756,15 @@ button.close {
   }
 }
 .navbar {
-  background-image: -webkit-linear-gradient(#ffa486, #ff6b39 50%, #ff5b25);
-  background-image: -o-linear-gradient(#ffa486, #ff6b39 50%, #ff5b25);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa486), color-stop(50%, #ff6b39), to(#ff5b25));
-  background-image: linear-gradient(#ffa486, #ff6b39 50%, #ff5b25);
+  background-image: -webkit-linear-gradient(#ffac90, #ff7243 50%, #ff632f);
+  background-image: -o-linear-gradient(#ffac90, #ff7243 50%, #ff632f);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffac90), color-stop(50%, #ff7243), to(#ff632f));
+  background-image: linear-gradient(#ffac90, #ff7243 50%, #ff632f);
   background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffa486', endColorstr='#ffff5b25', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffac90', endColorstr='#ffff632f', GradientType=0);
   -webkit-filter: none;
           filter: none;
-  border: 1px solid #ff4406;
+  border: 1px solid #ff4c10;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 .navbar-inverse {
