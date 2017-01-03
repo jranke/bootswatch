@@ -2,7 +2,7 @@
 /*!
  * bootswatch v3.3.7
  * Homepage: http://bootswatch.com
- * Copyright 2012-2016 Thomas Park
+ * Copyright 2012-2017 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -4497,11 +4497,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #ff7a4e;
-  border-color: #ff612c;
+  background-color: #ff6b39;
+  border-color: #ff5218;
 }
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #333333;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4509,10 +4509,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #ff6b39;
+  color: #333333;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #333333;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4532,18 +4532,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ff612c;
+  border-color: #ff5218;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ff612c;
+  background-color: #ff5218;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #cccccc;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ff612c;
+  border-color: #ff5218;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -4553,7 +4553,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: #333333;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4574,13 +4574,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #777777;
+  color: #333333;
 }
 .navbar-default .navbar-link:hover {
   color: #c83200;
 }
 .navbar-default .btn-link {
-  color: #777777;
+  color: #333333;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
@@ -6756,15 +6756,15 @@ button.close {
   }
 }
 .navbar {
-  background-image: -webkit-linear-gradient(#ffb39a, #ff7a4e 50%, #ff6b39);
-  background-image: -o-linear-gradient(#ffb39a, #ff7a4e 50%, #ff6b39);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb39a), color-stop(50%, #ff7a4e), to(#ff6b39));
-  background-image: linear-gradient(#ffb39a, #ff7a4e 50%, #ff6b39);
+  background-image: -webkit-linear-gradient(#ffa486, #ff6b39 50%, #ff5b25);
+  background-image: -o-linear-gradient(#ffa486, #ff6b39 50%, #ff5b25);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa486), color-stop(50%, #ff6b39), to(#ff5b25));
+  background-image: linear-gradient(#ffa486, #ff6b39 50%, #ff5b25);
   background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffb39a', endColorstr='#ffff6b39', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffa486', endColorstr='#ffff5b25', GradientType=0);
   -webkit-filter: none;
           filter: none;
-  border: 1px solid #ff541b;
+  border: 1px solid #ff4406;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 .navbar-inverse {
